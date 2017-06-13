@@ -1,0 +1,32 @@
+/* CSS Document */
+
+.a:link{
+	color: black;
+	text-decoration: none;
+}
+.a:hover{
+	color: aqua;
+}
+body{
+    text-align: center;
+}  
+ul.ul-menu{
+    background: url(../images/top_nav_background.png) no-repeat left center;
+    width: 1000px;
+    height: 66px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 31px 0 0 0;
+    list-style: none;
+}
+ul.ul-menu li{
+    float: left;
+    margin: 5px 12px;
+} 
+ul.ul-menu li:nth-child(4){
+    margin-left: 190px;
+}
+ul.ul-menu li a{
+    color: #ff0000 ;
+    display: block;
+}
