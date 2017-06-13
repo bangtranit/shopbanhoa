@@ -1,0 +1,29 @@
+.a:link{
+	color: black;
+	text-decoration: none;
+}
+.a:hover{
+	color: aqua;
+}
+.top_menu{
+	background-image:url(../images/top_nav_background.png);
+	width: 100%;
+	height: 97px;
+	background-position: center;
+	position: relativerel;
+/*	background-repeat: no-repeat;*/
+	
+}
+li{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden; 
+	display: inline-block;}
+
+ul{
+	padding-left: 0px;
+	padding-top: 30px;
+}
+#object{
+	color: white;
+}
